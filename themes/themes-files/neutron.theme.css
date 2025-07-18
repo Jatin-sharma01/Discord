@@ -1,0 +1,98 @@
+/**
+ * @name Roronoa Zoro
+ * @version 1.0
+ * @description A simple but highly customizable theme, now sugar free!
+ * @Jatin Sharma
+ * @invite https://discord.gg/hjrScNYVEy
+ * @source https://github.com/jatinsharma-01/discord/themes
+ * @website https://betterdiscord.app/theme/Neutron
+*/
+
+@import url("https://jatin-sharma01.github.io/discord/themes/themes-cores/neutron8.css");
+@import url("https://jatin-sharma01.github.io/discord/themes/core/badges.css");
+@import url("https://jatin-sharma01.github.io/discord/themes/core/custom-font.css");
+@import url("https://jatin-sharma01.github.io/discord/themes/core/settings-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap');
+
+/*##########################################################################
+           CHANGE VALUES BELOW TO CUSTOMIZE YOU THEME
+##########################################################################*/
+:root {
+  /* COLORS */
+  --themeColor1: #36d181; /* Greenish accent */
+  --themeColor2: #38e698; /* Greenish accent */
+
+  /* TEXT COLORS */
+  --text-normal: #ffffff;
+  --text-muted: #b5b5b5;
+  --header-primary: #ffffff;
+  --header-secondary: #b5b5b5;
+  --interactive-normal: #c7c7c7;
+
+  /* GLASS EFFECT FOR SIDEBAR */
+  --sidebar-background: rgba(0, 0, 0, 0.4);
+
+  /* CUSTOM FONT */
+  --customFont: 'Prompt', sans-serif;
+
+  /* HOME BUTTON */
+  --homeImage: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrsVGj-CBjPjkZSJox7r7-hJJcEt9_fZIUtQ&s');
+  --homeImageSize: cover;
+
+  /* BACKGROUND */
+  --backgroundColor: #000000;
+  --backgroundImage: url('https://raw.githubusercontent.com/Jatin-sharma01/Web-Dev/main/my-app/src/assets/zoro-one-piece-forest-night-scene-desktop-wallpaper-4k.jpg');
+  --backgroundPosition: center;
+  --backgroundSize: cover;
+  --backgroundRepeat: no-repeat;
+  --backgroundBlur: 0px;
+  --backgroundOpacity: 1;
+
+  /* CODE BLOCKS */
+  --backgroundCode: rgb(0, 0, 0);
+  --backgroundName: rgb(0, 0, 0);
+}
+
+/* Glass effect for sidebar */
+[class^="sidebar_"] {
+  background: var(--sidebar-background) !important;
+  backdrop-filter: blur(5px) !important;
+}
+
+/* Translucent/glassy search bar */
+div[class*="searchBar"] {
+  background: rgba(0, 0, 0, 0.3) !important;
+  backdrop-filter: blur(3px) !important;
+  border-radius: 10px !important;
+  color: #fff !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04) !important;
+}
+div[class*="searchBar"] input,
+div[class*="searchBar"] input::placeholder {
+  background: transparent !important;
+  color: #b5eacb !important;
+}
+
+/* Optional: smooth friends list background to blend with theme */
+.scroller__89969,
+.scroller-WSmht3,
+.container__43554 {
+  background: transparent !important;
+}
+
+/* === FORCE GREEN BUTTONS - NEW FIX === */
+/* This rule targets all primary action buttons (like in Settings and 'Add Friend') */
+button[class*="lookFilled"][class*="colorBrand"],
+[class^="topPill_"] [class*="colorGreen"] {
+    background: linear-gradient(45deg, var(--themeColor1), var(--themeColor2)) !important;
+    border: none !important;
+    background-color: var(--themeColor1) !important; /* Fallback for solid color */
+}
+
+/* A clean hover effect for the buttons */
+button[class*="lookFilled"][class*="colorBrand"]:hover,
+[class^="topPill_"] [class*="colorGreen"]:hover {
+    filter: brightness(1.15);
+    background: linear-gradient(45deg, var(--themeColor1), var(--themeColor2)) !important;
+}
+/* === END OF NEW FIX === */
