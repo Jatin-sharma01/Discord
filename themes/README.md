@@ -1,5 +1,4 @@
 # Discord Themes
-OBSIDIAN
 
 Help me to make my themes even better! Join the discord server!
 Suggestions and bugs reports are welcome
@@ -14,7 +13,6 @@ Discord server invite : https://discord.gg/hjrScNYVEy
    * add a screenshot if needed
 
 ## 2. Installing a theme
-First of all, make sure you have installed Vencord or [BetterDiscord](https://betterdiscord.app/)
 
    *  Step 1: Download the theme file
    * Step 2: Save the file somewhere you can find it
