@@ -1,5 +1,5 @@
 # Discord Themes
-
+OBSIDIAN
 
 Help me to make my themes even better! Join the discord server!
 Suggestions and bugs reports are welcome
