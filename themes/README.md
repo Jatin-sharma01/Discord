@@ -1,25 +1,20 @@
 # Discord Themes
 
-All the themes/mini-themes/tools 'Spectra' made for Discord.
 
 Help me to make my themes even better! Join the discord server!
 Suggestions and bugs reports are welcome
 
-Discord server invite : https://discord.gg/PZdnCVD
+Discord server invite : https://discord.gg/hjrScNYVEy
 
 ##  1. How to ask for help
 0. First, read the  documentation down below.
-1. Join the [discord server](https://discord.gg/PZdnCVD)
-2. Read the [#rules](https://discord.com/channels/499348536534761473/564631764765769751)
-3. Check [#read-before-asking](https://discord.com/channels/499348536534761473/564629861679759403)
-4. Go to [#support](https://discord.com/channels/499348536534761473/1036786444179623956)
-5. Ask
+1. Ask
    * Specify the theme
    * Explain your problem clearly
    * add a screenshot if needed
 
 ## 2. Installing a theme
-First of all, make sure you have installed [BetterDiscord](https://betterdiscord.app/)
+First of all, make sure you have installed Vencord or [BetterDiscord](https://betterdiscord.app/)
 
    *  Step 1: Download the theme file
    * Step 2: Save the file somewhere you can find it
