@@ -1,7 +1,6 @@
 # Discord Themes
 
-
-Help me to make my themes even better! Join the discord server!
+Help me to make my themes even better! Join the discord server ( OBSIDIAN Network)!
 Suggestions and bugs reports are welcome
 
 Discord server invite : https://discord.gg/hjrScNYVEy
